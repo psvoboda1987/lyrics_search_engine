@@ -1,0 +1,9 @@
+<div class="song">
+    <h3>Title: ${hit.result.title}</h3>
+    <p>Preview:</p>
+    <img src="${hit.result.header_image_thumbnail_url}" alt="${hit.result.title}">
+    <p>Artist: ${hit.result.primary_artist.name}</p>
+    <p><a href="${hit.result.primary_artist.url}">Artist link</a></p>
+    <p><a href="${hit.result.url}">Song link</a></p>
+    <p>${hit.result.stats.pageviews}</p>
+</div>
